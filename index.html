@@ -1,0 +1,227 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Ender Alex - Entity Report</title>
+
+<style>
+/* ===== Base ===== */
+* {
+  box-sizing: border-box;
+}
+body {
+  margin: 0;
+  font-family: "Segoe UI", Arial, sans-serif;
+  background: black;
+  color: #f2f2f2;
+  line-height: 1.7;
+  overflow-x: hidden;
+}
+
+/* ===== Red Fog Background ===== */
+body::before {
+  content: "";
+  position: fixed;
+  inset: 0;
+  background:
+    radial-gradient(circle at 30% 40%, rgba(180,0,0,0.15), transparent 60%),
+    radial-gradient(circle at 70% 60%, rgba(255,0,0,0.12), transparent 65%),
+    radial-gradient(circle at 50% 80%, rgba(120,0,0,0.18), transparent 70%);
+  animation: fogMove 18s infinite alternate ease-in-out;
+  pointer-events: none;
+  z-index: -1;
+}
+
+@keyframes fogMove {
+  from { transform: translateY(0) scale(1); }
+  to   { transform: translateY(-40px) scale(1.05); }
+}
+
+/* ===== Layout ===== */
+.container {
+  max-width: 900px;
+  padding: 20px;
+  margin: auto;
+}
+
+/* ===== Headers ===== */
+h1 {
+  color: #ff2a2a;
+  text-align: center;
+  font-size: 2.2em;
+  letter-spacing: 2px;
+  margin-bottom: 5px;
+}
+
+.subtitle {
+  text-align: center;
+  font-size: 0.95em;
+  color: #ff5555;
+  margin-bottom: 30px;
+}
+
+h2 {
+  color: #ff3b3b;
+  border-left: 4px solid #ff3b3b;
+  padding-left: 10px;
+  margin-top: 40px;
+}
+
+/* ===== Text Styles ===== */
+.danger {
+  color: #ff0000;
+  font-weight: bold;
+}
+
+.note {
+  color: #ff6666;
+  font-style: italic;
+}
+
+hr {
+  border: none;
+  height: 1px;
+  background: linear-gradient(to right, transparent, #ff2a2a, transparent);
+  margin: 30px 0;
+}
+
+/* ===== Image ===== */
+.entity-image {
+  text-align: center;
+  margin: 30px 0;
+}
+.entity-image img {
+  max-width: 100%;
+  border: 2px solid #ff2a2a;
+  box-shadow: 0 0 20px rgba(255,0,0,0.4);
+}
+
+/* ===== Lists ===== */
+ul {
+  padding-left: 20px;
+}
+li {
+  margin-bottom: 6px;
+}
+
+/* ===== Mobile Adjustments ===== */
+@media (max-width: 600px) {
+  h1 {
+    font-size: 1.7em;
+  }
+  h2 {
+    font-size: 1.2em;
+  }
+}
+</style>
+</head>
+
+<body>
+<div class="container">
+
+<h1>Ender Alex</h1>
+<div class="subtitle">
+Unimplemented Minecraft Entity / ???<br>
+<span class="danger">Danger Level: ★★★★★</span>
+</div>
+
+<hr>
+
+<h2>Overview</h2>
+<p>
+Ender Alex is an <span class="danger">unofficial and unimplemented entity</span> rumored to be born from
+a catastrophic fusion of deleted Alex test data and Enderman source code.
+She is described not as a mob, but as a <span class="note">presence summoned from the world's side</span>.
+</p>
+
+<h2>Reported Versions</h2>
+<ul>
+  <li>Java Edition 1.12.2</li>
+  <li>Java Edition 1.8.9</li>
+  <li>Java Edition 1.16.5 (Rare)</li>
+  <li>Bedrock Edition (Imperfect replication)</li>
+</ul>
+<p class="note">
+Reports are concentrated in legacy or transitional versions between major updates.
+</p>
+
+<h2>History of Discovery</h2>
+<p>
+First rumors appeared around <span class="danger">2014–2015</span>, originating from a now-deleted overseas forum.
+A user claimed that entering <code>/spawn Ender Alex</code> caused an immediate world crash.
+By 2016, the rumor spread to Japan with altered ritual conditions.
+</p>
+
+<h2>Summoning Conditions (Rumored)</h2>
+<ul>
+  <li>Create a cross-shaped grave using Obsidian</li>
+  <li>Place a sign reading <span class="danger">"Foolish creature"</span></li>
+  <li>Ignite Netherrack at the top and bottom</li>
+  <li>Slay multiple Endermen nearby</li>
+  <li>Enter: <code>/spawn Ender Alex</code></li>
+</ul>
+
+<h2>Abnormalities After Re-logging</h2>
+<ul>
+  <li>Terrain converts into End Stone</li>
+  <li>Torches disappear</li>
+  <li>Chest contents replaced with Ender Pearls</li>
+  <li>Signs change text to <span class="danger">"Still here?"</span></li>
+</ul>
+
+<h2>Join Message</h2>
+<p>
+After sufficient time:
+</p>
+<p class="danger">
+"Ender_Alex joined the game"
+</p>
+<p class="note">
+She does not appear on the Tab list.
+</p>
+
+<h2>Sightings and Behavior</h2>
+<ul>
+  <li>Visible only for a split second when turning around</li>
+  <li>Unknown and unused sounds play</li>
+  <li>Villages found burning</li>
+</ul>
+
+<h2>Appearance</h2>
+<ul>
+  <li>Base body identical to Alex</li>
+  <li>Left side resembles an Enderman</li>
+  <li>Both eyes glow purple</li>
+  <li>Purple particles constantly emitted</li>
+</ul>
+
+<div class="entity-image">
+  <img src="1000016064.jpg" alt="Ender Alex Evidence Image">
+  <p class="note">Evidence Image</p>
+</div>
+
+<h2>Final Encounter</h2>
+<p>
+She does not attack immediately.
+Once conditions are met, the following appears:
+</p>
+<p class="danger">
+"Foolish creature. Now you understand."
+</p>
+<p>
+She then teleports behind the player and kills them instantly.
+Upon respawn, the world name may change to:
+</p>
+<p class="danger">[WORLD DATA CORRUPTED]</p>
+
+<hr>
+
+<p class="note" style="text-align:center;">
+This entity does not officially exist.<br>
+Or so the game wants you to believe.
+</p>
+
+</div>
+</body>
+</html>
